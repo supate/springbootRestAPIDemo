@@ -9,6 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 public class SpringBootHibernateJpaApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Inside main method");
 		SpringApplication.run(SpringBootHibernateJpaApplication.class, args);
 	}
 }
