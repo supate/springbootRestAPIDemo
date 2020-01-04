@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 public class SpringBootHibernateJpaApplication {
 
 	public static void main(String[] args) {
-		System.out.println("Inside main method, second change, testbranch changes");
+		System.out.println("Inside main method, second change");
 		SpringApplication.run(SpringBootHibernateJpaApplication.class, args);
 	}
 }
